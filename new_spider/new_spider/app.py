@@ -16,3 +16,7 @@ def get_record():
     else:
         output = 'No records'
     return jsonify({'result': output})
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0')
+    
